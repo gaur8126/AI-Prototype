@@ -1,6 +1,6 @@
 # Chiacon AI Webpage Prototype – AI Use Case Generator
 
-<a alt="https://ai-prototype-0vxc.onrender.com/"> LIVE LINK </a>
+[Live Demo](https://your-app.onrender.com)
 
 ## Overview
 
