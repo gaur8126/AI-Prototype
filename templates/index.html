@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Chiacon AI Use Case Generator</title>
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Unlocking Business Value with AI and Intelligent Automation</h1>
+
+<p class="description">
+Chiacon is an IT services and consulting company that helps businesses leverage
+Artificial Intelligence, data analytics, and intelligent automation to improve
+operations and decision-making. By combining technologies such as AI, robotic
+process automation (RPA), and advanced analytics, Chiacon enables organizations
+to automate manual processes, unlock insights from data, and accelerate digital
+transformation.
+</p>
+
+<div class="usecases">
+
+<h3>Example AI Use Cases</h3>
+
+<ul>
+<li>Automated financial reporting</li>
+<li>Customer support chatbots</li>
+<li>Predictive demand forecasting</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>AI Use Case Generator</h2>
+
+<input
+id="problem"
+placeholder="Example: FMCG company struggling with manual reporting"
+/>
+
+<button onclick="generateUseCase()">
+Generate AI Opportunities
+</button>
+
+<div id="loading" class="loading" style="display:none;">
+Analyzing business problem...
+</div>
+
+<textarea
+id="result"
+placeholder="AI insights will appear here..."
+readonly
+></textarea>
+
+<button id="copyBtn" onclick="copyResult()">
+Copy Result
+</button>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
