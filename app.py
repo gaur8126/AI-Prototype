@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
+# from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os
@@ -8,9 +9,9 @@ load_dotenv()
 
 app = Flask(__name__)
 
-from langchain_groq import ChatGroq
 
-from langchain_openai import ChatOpenAI, OpenAI
+
+# from langchain_openai import ChatOpenAI, OpenAI
 
 load_dotenv()
 
